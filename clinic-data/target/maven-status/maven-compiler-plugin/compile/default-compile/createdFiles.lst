@@ -1,0 +1,14 @@
+com\example\springclinic\services\map\VetServiceMap.class
+com\example\springclinic\model\BaseEntity.class
+com\example\springclinic\model\Pet.class
+com\example\springclinic\services\CrudService.class
+com\example\springclinic\services\map\AbstractMapService.class
+com\example\springclinic\model\PetType.class
+com\example\springclinic\model\Owner.class
+com\example\springclinic\model\Vet.class
+com\example\springclinic\services\OwnerService.class
+com\example\springclinic\services\VetService.class
+com\example\springclinic\services\map\OwnerServiceMap.class
+com\example\springclinic\model\Person.class
+com\example\springclinic\services\PetService.class
+com\example\springclinic\services\map\PetServiceMap.class
