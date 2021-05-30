@@ -27,21 +27,20 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-site-plugin</artifactId>
-                <configuration>
-                    <goal>install</goal>
-:q
-                </configuration>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-site-plugin</artifactId>-->
+<!--                <configuration>-->
+<!--                    <goal>install</goal>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
         </plugins>
     </build>
 
-    <scm>
-        <url>https://github.com/Lillian007-lab/spring-clinic</url>
-        <connection>scm:git:https://github.com/Lillian007-lab/spring-clinic.git</connection>
-    <tag>spring-clinic-0.0.1</tag>
-  </scm>
+<!--    <scm>-->
+<!--        <url>https://github.com/Lillian007-lab/spring-clinic</url>-->
+<!--        <connection>scm:git:https://github.com/Lillian007-lab/spring-clinic.git</connection>-->
+<!--    <tag>spring-clinic-0.0.1</tag>-->
+<!--  </scm>-->
 
 </project>
