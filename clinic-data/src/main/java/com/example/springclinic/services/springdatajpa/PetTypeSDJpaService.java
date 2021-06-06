@@ -12,7 +12,7 @@ import java.util.Optional;
 import java.util.Set;
 
 @Service
-@Profile("spingdatajpa")
+@Profile("springdatajpa")
 public class PetTypeSDJpaService implements PetTypeService {
 
     private final PetTypeRepository petTypeRepository;
