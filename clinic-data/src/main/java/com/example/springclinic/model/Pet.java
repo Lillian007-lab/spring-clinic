@@ -1,7 +1,6 @@
 package com.example.springclinic.model;
 
 import lombok.*;
-import org.springframework.boot.autoconfigure.web.reactive.HttpHandlerAutoConfiguration;
 
 import javax.persistence.*;
 import java.time.LocalDate;

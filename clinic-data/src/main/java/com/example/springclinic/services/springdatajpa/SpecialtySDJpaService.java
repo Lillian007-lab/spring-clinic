@@ -6,9 +6,7 @@ import com.example.springclinic.services.SpecialtyService;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
-import java.awt.desktop.OpenFilesEvent;
 import java.util.HashSet;
-import java.util.Optional;
 import java.util.Set;
 
 @Service

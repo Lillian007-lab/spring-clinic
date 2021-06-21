@@ -1,9 +1,12 @@
 package com.example.springclinic.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+import java.time.LocalDate;
 import lombok.*;
 
 import javax.persistence.*;
-import java.time.LocalDate;
 
 @Getter
 @Setter

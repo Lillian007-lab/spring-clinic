@@ -1,10 +1,10 @@
 package com.example.springclinic.model;
 
+import java.util.HashSet;
+import java.util.Set;
 import lombok.*;
 
 import javax.persistence.*;
-import java.util.HashSet;
-import java.util.Set;
 
 @Getter
 @Setter
