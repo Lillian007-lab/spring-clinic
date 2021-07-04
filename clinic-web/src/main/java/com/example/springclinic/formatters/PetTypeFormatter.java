@@ -9,6 +9,10 @@ import java.text.ParseException;
 import java.util.Collection;
 import java.util.Locale;
 
+/**
+ * Instruct Spring MVC on how to parse and print elements of type "PetType"
+  */
+
 @Component
 public class PetTypeFormatter implements Formatter<PetType> {
 
@@ -21,7 +25,6 @@ public class PetTypeFormatter implements Formatter<PetType> {
     @Override
     public PetType parse(String text, Locale locale) throws ParseException {
         Collection<PetType> findPetTypes = petTypeService.findAll();
-        System.out.println("Pet Type Formatter");
 
         for (PetType type : findPetTypes) {
             if (type.getName().equals(text)) {
