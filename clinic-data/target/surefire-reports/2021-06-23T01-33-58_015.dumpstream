@@ -1,4 +1,0 @@
-# Created at 2021-06-23T01:33:58.973
-Boot Manifest-JAR contains absolute paths in classpath 'D:\JavaWorkspace2021Eclipse\spring-clinic\clinic-data\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-
