@@ -85,20 +85,18 @@ class VisitControllerTest {
     void initNewVisitForm() throws Exception {
         mockMvc.perform(MockMvcRequestBuilders.get(visitsUri))
                 .andExpect(status().isOk())
-                .andExpect(view().name(PETS_CREATE_OR_UPDATE_VISIT_FORM))
-        ;
+                .andExpect(view().name(PETS_CREATE_OR_UPDATE_VISIT_FORM));
     }
 
 
     @Test
     void processNewVisitForm() throws Exception {
         mockMvc.perform(MockMvcRequestBuilders.post(visitsUri)
-                .contentType(MediaType.APPLICATION_FORM_URLENCODED)
-                .param("date","2018-11-11")
-                .param("description", YET_ANOTHER_VISIT_DESCRIPTION))
+                    .contentType(MediaType.APPLICATION_FORM_URLENCODED)
+                    .param("date", "2018-11-11")
+                    .param("description", YET_ANOTHER_VISIT_DESCRIPTION))
                 .andExpect(status().is3xxRedirection())
                 .andExpect(view().name(REDIRECT_OWNERS_1))
-                .andExpect(model().attributeExists("visit"))
-        ;
+                .andExpect(model().attributeExists("visit"));
     }
 }
