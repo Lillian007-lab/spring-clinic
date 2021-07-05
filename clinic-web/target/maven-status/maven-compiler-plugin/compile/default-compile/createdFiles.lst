@@ -1,9 +1,0 @@
-com\example\springclinic\controllers\OwnerController.class
-com\example\springclinic\controllers\IndexController.class
-com\example\springclinic\controllers\VetController.class
-com\example\springclinic\controllers\VisitController.class
-com\example\springclinic\SpringClinicApplication.class
-com\example\springclinic\controllers\PetController.class
-com\example\springclinic\bootstrap\DataLoader.class
-com\example\springclinic\controllers\VisitController$1.class
-com\example\springclinic\formatters\PetTypeFormatter.class
